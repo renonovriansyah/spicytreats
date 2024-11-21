@@ -17,9 +17,6 @@ html, body {
 .container {
     text-align: center;
     position: fixed;  /* Menempatkan container secara tetap di tengah */
-    top: 50%;          /* Mengatur container berada di tengah vertikal */
-    left: 50%;         /* Mengatur container berada di tengah horizontal */
-    transform: translate(-50%, -50%); /* Menyesuaikan posisi dengan tepat di tengah */
     margin: 100px auto;
     padding: 20px;
     background: rgba(0, 0, 0, 0.6);
