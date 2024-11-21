@@ -21,6 +21,7 @@ html, body {
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     max-width: 600px;
+    width: 90%;
     z-index: 0;  /* Menjaga container tetap di bawah tombol */
 }
 
@@ -102,4 +103,17 @@ p {
 .location:hover {
     background-color: #28b8d8; /* Warna lebih gelap saat hover */
     border: 2px solid #ffffff; /* Garis pinggir putih saat hover */
+}
+
+/* Media Query untuk perangkat mobile */
+@media (max-width: 768px) {
+    .container {
+        max-width: 90%; /* Lebar container lebih kecil di perangkat mobile */
+        padding: 15px;  /* Kurangi padding pada perangkat mobile */
+    }
+    
+    .btn {
+        padding: 12px 18px; /* Sesuaikan padding tombol */
+        font-size: 14px;    /* Sesuaikan ukuran font tombol */
+    }
 }
