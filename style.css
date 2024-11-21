@@ -118,4 +118,10 @@ p {
         padding: 12px 18px; /* Sesuaikan padding tombol */
         font-size: 14px;    /* Sesuaikan ukuran font tombol */
     }
+
+    /* Pastikan ikon dan teks tetap di tengah secara vertikal pada mobile */
+    .btn i {
+        margin-right: 8px;
+        vertical-align: middle; /* Membuat ikon dan teks sejajar secara vertikal */
+    }
 }
