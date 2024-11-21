@@ -1,0 +1,103 @@
+/* style.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Poppins, sans-serif;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center;    /* Pusatkan secara vertikal */
+    height: 100vh;          /* Tinggi penuh layar */
+}
+
+.container {
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 600px;
+    z-index: 0;  /* Menjaga container tetap di bawah tombol */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Tombol dasar */
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #232529;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ff5722; /* Warna default */
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1;  /* Pastikan tombol tetap di atas kontainer */
+}
+
+/* Menambahkan gaya pada ikon */
+.btn i {
+    font-weight: bold; /* Membuat ikon lebih tebal */
+    font-size: 18px; /* Meningkatkan ukuran ikon */
+    margin-right: 3px; /* Memberikan jarak antara ikon dan teks */
+    vertical-align: middle;
+}
+
+/* Efek hover pada tombol */
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    background-color: #e64a19; /* Warna lebih gelap saat hover */
+    border: 2px solid #ffffff; /* Garis pinggir putih saat hover */
+}
+
+/* Tombol WhatsApp */
+.whatsapp {
+    background: #3b8bff;
+}
+
+.whatsapp:hover {
+    background-color: #1e65b2; /* Warna lebih gelap saat hover */
+    border: 2px solid #ffffff; /* Garis pinggir putih saat hover */
+}
+
+/* Tombol Instagram */
+.instagram {
+    background: #3fffb2;
+}
+
+.instagram:hover {
+    background-color: #2dbd8c; /* Warna lebih gelap saat hover */
+    border: 2px solid #ffffff; /* Garis pinggir putih saat hover */
+}
+
+/* Tombol Lokasi */
+.location {
+    background: #3eecff;
+}
+
+.location:hover {
+    background-color: #28b8d8; /* Warna lebih gelap saat hover */
+    border: 2px solid #ffffff; /* Garis pinggir putih saat hover */
+}
